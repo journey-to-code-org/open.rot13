@@ -1,0 +1,42 @@
+{
+  "name": "@journey-to-code/open-rot13",
+  "version": "1.0.0",
+  "description": "Applies the reversible ROT13 substitution cipher to ASCII letters.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.rot13.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.rot13/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.rot13#readme",
+  "keywords": [
+    "rot13",
+    "cipher",
+    "text"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
